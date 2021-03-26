@@ -79,7 +79,7 @@ ul li {
   padding: 16px 16px 16px 16px;
   border: 1px solid black;
   margin: 32px 32px 32px 32px;
-  background-color: white;
+  background-color:beige
   
 }
 .titre {
@@ -87,3 +87,17 @@ ul li {
   font-size: 75px;
   text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  text-shadow: black;
+  font-weight: bold;
+  -webkit-text-stroke: 2px  black;
+}
+
+@media only screen and (min-width : 320px) and (max-width: 480px)
